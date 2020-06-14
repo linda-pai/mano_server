@@ -33,6 +33,8 @@ app.get("/", (req, res) => {
 
 app.use('/items', require(__dirname+'/items'))
 app.use('/category', require(__dirname+'/category'))
+app.use('/cscategory', require(__dirname+'/cscategory'))
+app.use('/courses', require(__dirname+'/courses'))
 
 
 
